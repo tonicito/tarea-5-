@@ -1,0 +1,68 @@
+<?php
+
+class Animal { 
+public function say() {
+	echo '<br>animales';}}
+$animal= new animal();$animal->say();
+
+
+class mamiferos extends Animal{
+public function say() {	
+	echo'<br>mamiferos  ';}
+}
+$mamiferos= new mamiferos();$mamiferos->say(); 
+
+
+class perro extends Animal{ 
+public function say() { 
+	echo '<br>perro:ladra  amigo veloz  '; }
+} 
+$perro= new perro(); $perro->say(); 
+
+
+class leon extends Animal { 
+public function say() { 
+	echo '<br>leon:macho ruge felino '; }
+}
+$leon= new leon();$leon->say(); 
+
+
+class vaca extends Animal {
+   public function say() { 
+	echo '<br>vaca:muge hembra leche  '; }
+}
+$vaca= new vaca(); $vaca->say();
+
+
+
+
+class anfibios extends Animal{
+public function say() {	
+	echo'<br>anfibios  ';}
+}
+$anfibios= new anfibios();$anfibios->say(); 
+
+
+    class sapo extends Animal{
+public function say() {	
+	echo'<br>sapo  ';}
+    }
+$sapo= new sapo();$sapo->say(); 
+    
+    
+class rana extends Animal{
+public function say() {	
+	echo'<br>rana  ';} 
+}
+$rana= new rana();$rana->say(); 
+
+
+
+class salamandra extends Animal{
+public function say() {	
+    echo'<br>salamandra ';}
+}
+$salamandra= new salamandra();$salamandra->say(); 
+
+
+?>
